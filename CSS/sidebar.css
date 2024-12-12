@@ -1,0 +1,154 @@
+/* Sidebar */
+.slide {
+    height: 100%;
+    width: 350px;
+    position: fixed; /* Sidebar fixa */
+    top: 0;
+    left: 0;
+    background-color: #277dfd;
+    transition: 0.5s ease;
+    transform: translateX(-350px);
+    z-index: 9999; /* Sidebar ficará abaixo do botão */
+}
+
+/* Título da sidebar */
+h1 {
+    color: #fff;
+    font-weight: 800;
+    text-align: center;
+    padding: 10px 0;
+    padding-right: 30px;
+    pointer-events: none;
+}
+
+/* Listagem de itens da sidebar */
+ul li {
+    list-style: none;
+    color: #fff;
+}
+
+ul li a {
+    color: #fff;
+    font-weight: 500;
+    padding: 5px 0;
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+}
+
+ul li:hover a {
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+}
+
+ul li a i {
+    width: 40px;
+    text-align: center;
+}
+
+/* Estilo do botão de toggle */
+.input {
+    display: none;
+    visibility: hidden;
+
+}
+
+.toggle {
+    margin-left: 10px;
+    margin-top: -8px;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    top: 20px;
+    z-index: 10000; /* Garante que o botão fique acima da sidebar */
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transform: translateY(50%);
+}
+
+/* Linhas do toggle */
+.toggle .common {
+    position: absolute;
+    height: 2px;
+    width: 40px;
+    background-color: #277dfd;
+    border-radius: 50px;
+    transition: 0.3s ease;
+}
+
+.toggle .top_line {
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.toggle .middle_line {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.toggle .bottom_line {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Mudanças quando o sidebar está ativado */
+input:checked ~ .toggle .top_line {
+    left: 13%;
+    top: 50%;
+    width: 45px;
+    transform: rotate(45deg);
+}
+
+input:checked ~ .toggle .bottom_line {
+    left: 13%;
+    top: 50%;
+    width: 45px;
+    transform: rotate(-45deg);
+}
+
+input:checked ~ .toggle .middle_line {
+    opacity: 0;
+    transform: rotate(-45deg);
+}
+
+input:checked ~ .slide {
+    transform: translateX(0);
+    box-shadow: 0 0 15px #000;
+}
+
+/* Estilos de categorias */
+.categoria-item {
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.categoria-img {
+    transition: filter 0.3s;
+    width: 40px;
+}
+
+.categoria-texto {
+    transition: color 0.3s;
+}
+
+.categoria-item:hover {
+    background-color: white;
+    color: black;
+}
+
+.categoria-item:hover .categoria-img {
+    filter: grayscale(100%) invert(1);
+}
+
+.categoria-item:hover .categoria-texto {
+    color: black;
+}
+

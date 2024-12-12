@@ -1,0 +1,57 @@
+footer {
+    background-color: rgb(31, 31, 31);
+    height: 475px;
+}
+
+.logofooter {
+    margin-right: auto;
+    display: block;
+    position: absolute;
+    transform: translateY(120%);
+    left: 10px;
+}
+
+.divisoria1 {
+    margin-right: auto;
+    display: block;
+    position: absolute;
+    transform: translate(400%, 14%)
+}
+
+.divisoria2 {
+    margin-right: auto;
+    display: block;
+    position: absolute;
+    transform: translate(1450%, -70%)
+}
+
+.informacoes {
+    margin-right: auto;
+    display: block;
+    transform: translate(22%, 28%);
+    font-size: 17px;
+}
+
+.facebook {
+    margin-right: auto;
+    display: block;
+    transform: translate(78%, -175%);
+}
+
+.instagram {
+    margin-right: auto;
+    display: block;
+    transform: translate(78%, -215%);
+}
+
+.twitter {
+    margin-right: auto;
+    display: block;
+    transform: translate(77%, -240%);
+}
+
+.youtube {
+    margin-right: auto;
+    display: block;
+    transform: translate(77%, -285%);
+}

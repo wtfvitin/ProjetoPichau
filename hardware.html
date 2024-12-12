@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Inclusão do FontAwesome para usar ícones -->
+    <script src="https://kit.fontawesome.com/6dda5f6271.js" crossorigin="anonymous"></script>
+
+    <!-- Definindo a codificação de caracteres para UTF-8 -->
+    <meta charset="UTF-8">
+
+    <!-- Tornando a página responsiva para diferentes tamanhos de tela -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Configuração para garantir compatibilidade com o Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Inclusão de folhas de estilo CSS para o design da página -->
+    <link href="CSS/menu.css" rel="stylesheet">
+    <link href="CSS/sliderprodutos.css" rel="stylesheet">
+    <link href="CSS/sidebar.css" rel="stylesheet">
+    <link href="CSS/footer.css" rel="stylesheet">
+
+
+    <!-- Título da página -->
+    <title>Pichau</title>
+</head>
+
+<!-- Menu de navegação -->
+<menu>
+    <label>
+        <input type="checkbox" class="input">
+        <div class="toggle">
+            <span class="top_line common"></span>
+            <span class="middle_line common"></span>
+            <span class="bottom_line common"></span>
+        </div>
+        <div class="slide">
+            <br> <br>
+            <h1>&nbsp &nbsp Categorias</h1>
+            <br>
+            <ul>
+                <li class="categoria-item">
+                    <img src="img/Categorias/Hardware.png" class="categoria-img" style="vertical-align: middle;">
+                    &nbsp
+                    <span class="categoria-texto" style="font-size: 23px; vertical-align: middle;">Hardware</span>
+                </li>
+                <li class="categoria-item">
+                    <img src="img/Categorias/Periféricos.png" class="categoria-img" style="vertical-align: middle;">
+                    &nbsp
+                    <span class="categoria-texto" style="font-size: 23px; vertical-align: middle;">Periféricos</span>
+                </li>
+                <li class="categoria-item">
+                    <img src="img/Categorias/Computadores.png" class="categoria-img" style="vertical-align: middle;">
+                    &nbsp
+                    <span class="categoria-texto" style="font-size: 23px; vertical-align: middle;">Computadores</span>
+                </li>
+
+                <li class="categoria-item">
+                    <img src="img/Categorias/Monitor.png" class="categoria-img" style="vertical-align: middle;">
+                    &nbsp
+                    <span class="categoria-texto" style="font-size: 23px; vertical-align: middle;">Monitores</span>
+                </li>
+                <li class="categoria-item">
+                    <img src="img/Categorias/Cadeiras.png" class="categoria-img" style="vertical-align: middle;">
+                    &nbsp
+                    <span class="categoria-texto" style="font-size: 23px; vertical-align: middle;">Cadeiras e
+                        Mesas</span>
+                </li>
+                <li class="categoria-item">
+                    <img src="img/Categorias/Notebook.png" class="categoria-img" style="vertical-align: middle;">
+                    &nbsp
+                    <span class="categoria-texto" style="font-size: 23px; vertical-align: middle;">Notebooks e
+                        Portáteis</span>
+                </li>
+            </ul>
+        </div>
+    </label>
+    <!-- Logo com link para a página inicial -->
+    <a href="index.html"><img src="img/Pichau.png" class="logo" width="400px"></a>
+
+    <center>
+        <div>
+            <!-- Formulário de pesquisa -->
+            <form action="https://Google.com/search" method="get" target="_blank">
+                <div class="botoesdireita">
+                    <div class="pesquisa">
+                        <!-- Campo de texto para pesquisa -->
+                        <input type="text" name="q" placeholder="Pesquise aqui...">
+                    </div>
+
+                    <div class="botao">
+                        <!-- Botão de envio do formulário -->
+                        <input type="submit" value="">
+                    </div>
+                </div>
+        </div>
+        </form>
+
+        <!-- Links para páginas de login e informações -->
+        <a href="Login.html">
+            <img src="img/Minha Conta.png" height="50px">
+        </a>
+        <a href="social.html">
+            <img src="img/Quem Somos.png" height="49px">
+        </a>
+</menu>
+
+<body>
+    &nbsp &nbsp &nbsp &nbsp <img src="img/Hardware/Hardware.png" height="50px">
+
+    <section class="product">
+        <!-- Título da seção de produtos com uma imagem -->
+        <img class="tituloguia" src="img/Hardware/Processadores.png" width="250px">
+
+        <!-- Botões para navegação no slider (anterior e próximo) -->
+        <button class="pre-btn"><img src="img/Seta.png" alt="Botão Anterior"></button>
+        <button class="nxt-btn"><img src="img/Seta.png" alt="Botão Próximo"></button>
+
+        <div class="product-container">
+            <!-- Cartão de produto 1 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <!-- Tag de desconto -->
+                    <span class="discount-tag">20% off</span>
+                    <!-- Imagem do produto -->
+                    <img src="img/Hardware/img01.png" class="product-thumb"
+                        alt="Kit Ventoinha Mancer Voltaic Purple Edition">
+                    <!-- Botão para adicionar ao carrinho -->
+                    <button class="card-btn">adicionar ao carrinho</button>
+                </div>
+                <div class="product-info">
+                    <!-- Nome do produto -->
+                    <h2 class="product-brand">Processador Intel Core I5-13400, 10-Core, 16-Threads, 2.5GHz (4.6GHz),
+                        Cache 20MB, LGA1700, BX8071513400-BR</h2>
+                    <br>
+                    <p class="product-short-description"><b>Marca:</b> Intel</p>
+                    <!-- Preço original e com desconto -->
+                    <span class="price"><b>R$ 1.399,99</b></span><span class="actual-price">R$ 1.647,05</span>
+                </div>
+            </div>
+
+            <!-- Cartão de produto 2 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">15% off</span>
+                    <img src="img/Hardware/img02.png" class="product-thumb" alt="Processador AMD Ryzen 7 9800X3D">
+                    <button class="card-btn">adicionar ao carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Processador Intel Core I9-14900F, 24-Core, 32-Threads, 3.2GHz (5.8GHz
+                        Turbo), Cache 36MB, LGA1700, BX8071514900F-BR</h2>
+                    <p class="product-short-description"><b>Marca:</b> Intel</p>
+                    <span class="price"><b>R$ 3.778,99</b></span><span class="actual-price">R$ 4.445,87</span>
+                </div>
+            </div>
+
+            <!-- Cartão de produto 3 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">12% off</span>
+                    <img src="img/Hardware/img03.png" class="product-thumb" alt="Mouse Gamer Logitech G Pro 2">
+                    <button class="card-btn">adicionar ao carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Processador AMD Ryzen 3 5300G, 4-Core, 8-Threads, 4.0GHz (4.2GHz Turbo),
+                        Cache 8MB, AM4, 100-100000253BOX-BR</h2>
+                    <br>
+                    <p class="product-short-description"><b>Marca:</b> AMD</p>
+                    <span class="price"><b>R$ 599,99</b></span><span class="actual-price">R$ 705,87</span>
+                </div>
+            </div>
+
+            <!-- Cartões adicionais de produtos seguem o mesmo formato -->
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">17% off</span>
+                    <img src="img/Hardware/img04.png" class="product-thumb"
+                        alt="Cadeira Gamer Pichau Free Fire World Series">
+                    <button class="card-btn">adicionar ao carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Processador AMD Ryzen 5 5600XT, 6-Core, 12-Threads, 3.7GHz (4.7GHz Turbo),
+                        Cache 35MB, AM4, 100-100001585BOX</h2>
+                    <br>
+                    <p class="product-short-description"><b>Marca:</b> AMD</p>
+                    <span class="price"><b>R$ 1.249,99</b></span><span class="actual-price">R$ 1.470,58</span>
+                </div>
+            </div>
+
+            <!-- Repetição do padrão para outros produtos -->
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">15% off</span>
+                    <img src="img/Hardware/img05.png" class="product-thumb" alt="PC Gamer Pichau Far Cry">
+                    <button class="card-btn">adicionar ao carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Processador Intel Core Ultra 5 245K, 14-Core, 14-Threads, 4.2GHz (5.2GHz
+                        Turbo), Cache 24MB, LGA1851, BX80768245K</h2>
+                    <br>
+                    <p class="product-short-description"><b>Marca:</b> Intel</p>
+                    <span class="price"><b>R$ 2.799,99</b></span><span class="actual-price">R$ 3.294,11</span>
+                </div>
+            </div>
+
+            <!-- Mais cartões de produto seguem o mesmo padrão -->
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">15% off</span>
+                    <img src="img/Hardware/img07.png" class="product-thumb" alt="PC Gamer Pichau Kokabiel IV">
+                    <button class="card-btn">adicionar ao carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Processador AMD Ryzen 7 9800X3D, 8-Core, 16-Threads, 4.7GHz (5.2GHz
+                        Turbo), Cache 104MB, 100-100001084WOF PRE-VENDA</h2>
+                    <p class="product-short-description"><b>Marca:</b> AMD</p>
+                    <span class="price"><b>R$ 4.199,99</b></span><span class="actual-price">R$ 4.941,16</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">20% off</span>
+                    <img src="img/Hardware/img08.png" class="product-thumb" alt="Teclado Mecanico Gamer Corsair K60">
+                    <button class="card-btn">adicionar ao carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Processador Intel Core Ultra 7 265KF, 20-Core, 20-Threads, 3.9GHz (5.5GHz
+                        Turbo), Cache 30MB, LGA1851, BX80768265KF</h2>
+                    <br>
+                    <p class="product-short-description"><b>Marca:</b> Intel</p>
+                    <span class="price"><b>R$ 3.149,99</b></span><span class="actual-price">R$ 3.705,87</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">35% off</span>
+                    <img src="img/Hardware/img09.png" class="product-thumb"
+                        alt="Water Cooler Aigo Darkflash Radiant DC360">
+                    <button class="card-btn">adicionar ao carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Processador Intel Core i9-12900K, 16-Core, 24-Threads, 3.2GHz (5.2GHz
+                        Turbo), Cache 30MB, LGA1700, BX8071512900K</h2>
+                    <br>
+                    <p class="product-short-description"><b>Marca:</b> Intel</p>
+                    <span class="price"><b>R$ 2.419,99</b></span><span class="actual-price">R$ 2.847,05</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">33% off</span>
+                    <img src="img/Hardware/img10.png" class="product-thumb"
+                        alt="Placa de Video Gigabyte Radeon RX 7600">
+                    <button class="card-btn">adicionar ao carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Processador AMD Ryzen Threadripper PRO 5975WX, 32-Core, 64-Threads, 3.6GHz
+                        (4.5GHz Turbo), Cache 144MB, sWRX8, 100-100000445WOF</h2>
+                    <p class="product-short-description"><b>Marca:</b> AMD</p>
+                    <span class="price"><b>R$ 17.999,99</b></span><span class="actual-price">R$ 21.176,46</span>
+                </div>
+            </div>
+
+            <!-- Cartão de produto final -->
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">11% off</span>
+                    <img src="img/Hardware/img11.png" class="product-thumb" alt="Gabinete Gamer Aigo ARC3">
+                    <button class="card-btn">adicionar ao carrinho</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Processador AMD Athlon 3000G, 2-Core, 4-Threads, 3.5GHz, Cache 5MB, AM4,
+                        YD3000C6FHSBX</h2>
+                    <p class="product-short-description"><b>Marca:</b> AMD</p>
+                    <span class="price"><b>R$ 359,99</b></span><span class="actual-price">R$ 423,52</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="JAVA/sliderprodutos.js"></script>
+    <footer>
+        <!-- Logotipo da empresa no rodapé -->
+        <div class="logofooter"><img src="img/Pichau.png" height="70px"></div>
+        
+        <!-- Divisória entre a logo e as informações -->
+        <div class="divisoria1"><img src="img/Footer/Divisória.png"></div>
+        
+        <br><br>
+        
+        <!-- Informações da empresa -->
+        <div class="informacoes">
+            <ul>
+                <!-- Informações registradas da empresa -->
+                <li><b>PICHAU INFORMÁTICA® É UMA MARCA REGISTRADA DE BAZAM E </b></li>
+                <li><b>PICHAU INFORMATICA LTDA | CNPJ: 09.376.495/0001-22</b></li>
+                <br>
+                <!-- Endereço da empresa -->
+                <li>Avenida Santos Dumont, 7199 - Aventureiro, Joinville - SC - 89226-435</li>
+                <br>
+                <!-- Informações adicionais sobre preços e condições -->
+                <li>Preços e condições de pagamento exclusivos para compras via internet e podem variar nas lojas físicas.</li>
+                <li>Os preços anunciados neste site ou via e-mail promocional podem ser alterados sem prévio aviso. A Pichau Informática,</li>
+                <li>não é responsável por erros descritivos. As fotos contidas nesta página são meramente ilustrativas do produto e podem</li>
+                <li>variar de acordo com o fornecedor/lote do fabricante. Ofertas válidas até o término de nossos estoques. Vendas sujeitas</li>
+                <li>à análise e confirmação de dados.</li>
+                <br><br>
+                <!-- Crédito ao desenvolvedor -->
+                <li>Made by Arthur, Igor & Victor</li>
+            </ul>
+        </div>
+        
+        <!-- Divisória inferior -->
+        <div class="divisoria2"><img src="img/Footer/Divisória.png"></div>
+        
+        <!-- Ícones de redes sociais com links -->
+        <div class="facebook"><a href="https://www.facebook.com/PichauInfo/" target="#"><img src="img/Footer/Facebook.png"></a></div>
+        <div class="instagram"><a href="https://www.instagram.com/pichauoficial/" target="#"><img src="img/Footer/Instagram.png"></a></div>
+        <div class="twitter"><a href="https://x.com/pichauinfo" target="#"><img src="img/Footer/Twitter.png"></a></div>
+        <div class="youtube"><a href="https://www.youtube.com/@pichauinfo" target="#"><img src="img/Footer/Youtube.png"></a></div>
+    
+    </footer>
+</body>
